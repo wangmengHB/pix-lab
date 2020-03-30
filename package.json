@@ -1,6 +1,6 @@
 {
-  "name": "pix-lab",
-  "version": "0.0.1-rc.1",
+  "name": "pixel-lab",
+  "version": "0.0.0-rc.1",
   "description": "a canvas library to handle shapes as objects",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangmengHB/pix-lab.git"
+    "url": "git+https://github.com/wangmengHB/pixel-lab.git"
   },
   "keywords": [
     "canvas",
@@ -24,9 +24,9 @@
   "author": "Meng Wang <wangmeng_hb@163.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wangmengHB/pix-lab/issues"
+    "url": "https://github.com/wangmengHB/pixel-lab/issues"
   },
-  "homepage": "https://github.com/wangmengHB/pix-lab#readme",
+  "homepage": "https://github.com/wangmengHB/pixel-lab#readme",
   "devDependencies": {
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.3",
