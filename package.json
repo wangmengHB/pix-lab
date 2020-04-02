@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "build": "rm -rf dist && rm -rf lib && tsc --outDir './lib'",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "dev": "webpack-dev-server --inline --progress --config ./build/webpack.dev.conf.js"
   },
   "repository": {
     "type": "git",
@@ -28,13 +29,39 @@
   },
   "homepage": "https://github.com/wangmengHB/pixel-lab#readme",
   "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-regenerator": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.7.4",
+    "@babel/runtime": "^7.7.6",
+    "@types/jest": "^24.0.15",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.3",
+    "@types/webpack": "^4.32.1",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^3.1.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
     "mocha": "^6.2.2",
     "mocha-junit-reporter": "^1.23.1",
+    "regenerator-runtime": "^0.13.3",
+    "rimraf": "^2.2.8",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.0.4",
     "ts-node": "^8.4.1",
-    "typescript": "^3.6.4",
-    "rimraf": "^2.2.8"
+    "typescript": "^3.8.3",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
   },
   "dependencies": {
     "util-kit": "^0.0.0-rc.6",
