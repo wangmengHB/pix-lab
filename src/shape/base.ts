@@ -9,6 +9,25 @@ export default class Base {
   height: number = 0;
 
 
+
+  containPoint() {
+
+  }
+
+  backward() {
+
+  }
+
+  frontward() {
+
+  }
+
+  
+  
+
+
+
+
   
 
 
