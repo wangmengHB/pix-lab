@@ -65,6 +65,6 @@
   },
   "dependencies": {
     "util-kit": "^0.0.0-rc.6",
-    "web-util-kit": "^0.0.0-rc.2"
+    "web-util-kit": "^0.0.0-rc.3"
   }
 }
